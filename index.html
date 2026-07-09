@@ -853,7 +853,7 @@ html{box-sizing:border-box;-webkit-text-size-adjust:100%}*,*::before,*::after{bo
   </div>
 </section>
 
-<section data-band-index="1" class="home-showcase-section" data-layout-spec="Home-showcase">
+<section data-band-index="1" class="home-showcase-section" data-layout-spec="Home-showcase" id="zappy-section-1">
   <div class="home-showcase-section__container">
     <!-- Intro Block -->
     <div class="home-showcase-section__intro">
@@ -862,11 +862,19 @@ html{box-sizing:border-box;-webkit-text-size-adjust:100%}*,*::before,*::after{bo
     </div>
 
     <!-- Category Cards Grid -->
-    <div class="home-showcase-section__grid">
+    <div class="home-showcase-section__grid" data-zappy-grid-align="start">
       <!-- Card 1: Living Rooms -->
-      <article class="home-showcase-section__card home-showcase-section__card--living">
+      <article class="home-showcase-section__card" style="background-color: rgb(255, 255, 255) !important; grid-area: auto !important;" data-grid-item-index="0">
         <figure class="home-showcase-section__card-figure">
-          <img loading="lazy" decoding="async" data-placeholder="home-showcase-living" data-context="Bright daylight-filled living room with a sculptural sofa, lounge chair, and natural wood coffee table, minimalist styling with visible natural materials and warm textures" width="600" height="400" src="/assets/site-home-showcase-living.webp" alt="Living Rooms with sculptural sofas and lounge chairs" fetchpriority="low">
+          <img loading="lazy" decoding="async" data-placeholder="image-placeholder" data-context="Bright daylight-filled living room with a sculptural sofa, lounge chair, and natural wood coffee table, minimalist styling with visible natural materials and warm textures" width="600" height="400" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="Image placeholder" data-element-type="image" data-element-id="new-grid-img-1783603444066-0-dxv6pikkf" style="cursor: pointer;" id="new-grid-img-1783603444066-0-dxv6pikkf" data-ai-slot="grid-item-image" data-zappy-base64-stripped="true" fetchpriority="low">
+        </figure>
+        <div class="home-showcase-section__card-content">
+          <h3 class="home-showcase-section__card-title">Subheading</h3>
+          <p class="home-showcase-section__card-desc">Text goes here</p>
+        </div>
+      </article><article class="home-showcase-section__card home-showcase-section__card--living" data-grid-item-index="1">
+        <figure class="home-showcase-section__card-figure">
+          <img loading="lazy" decoding="async" data-placeholder="home-showcase-living" data-context="Bright daylight-filled living room with a sculptural sofa, lounge chair, and natural wood coffee table, minimalist styling with visible natural materials and warm textures" width="600" height="400" src="/assets/site-home-showcase-living.webp" alt="Living Rooms with sculptural sofas and lounge chairs" data-element-type="image" data-element-id="img-1783603417666-slryp9j8w" fetchpriority="low">
         </figure>
         <div class="home-showcase-section__card-content">
           <h3 class="home-showcase-section__card-title">Salons</h3>
@@ -875,9 +883,9 @@ html{box-sizing:border-box;-webkit-text-size-adjust:100%}*,*::before,*::after{bo
       </article>
 
       <!-- Card 2: Dining Spaces -->
-      <article class="home-showcase-section__card home-showcase-section__card--dining">
+      <article class="home-showcase-section__card home-showcase-section__card--dining" data-grid-item-index="2">
         <figure class="home-showcase-section__card-figure">
-          <img loading="lazy" decoding="async" data-placeholder="home-showcase-dining" data-context="Elegant dining space with a refined wooden table, warm wood textures, and upholstered chairs, bathed in natural daylight with pale stone walls" width="600" height="400" src="/assets/site-home-showcase-dining.webp" alt="Dining Spaces with refined tables and warm wood textures" fetchpriority="low">
+          <img loading="lazy" decoding="async" data-placeholder="home-showcase-dining" data-context="Elegant dining space with a refined wooden table, warm wood textures, and upholstered chairs, bathed in natural daylight with pale stone walls" width="600" height="400" src="/assets/site-home-showcase-dining.webp" alt="Dining Spaces with refined tables and warm wood textures" data-element-type="image" data-element-id="img-1783603417666-131vkw93k" fetchpriority="low">
         </figure>
         <div class="home-showcase-section__card-content">
           <h3 class="home-showcase-section__card-title">Espaces Repas</h3>
@@ -886,9 +894,9 @@ html{box-sizing:border-box;-webkit-text-size-adjust:100%}*,*::before,*::after{bo
       </article>
 
       <!-- Card 3: Workspaces -->
-      <article class="home-showcase-section__card home-showcase-section__card--workspace">
+      <article class="home-showcase-section__card home-showcase-section__card--workspace" data-grid-item-index="3">
         <figure class="home-showcase-section__card-figure">
-          <img loading="lazy" decoding="async" data-placeholder="home-showcase-workspace" data-context="Calm home workspace with a minimalist desk, floating shelving, and an executive chair, styled with natural light and neutral tones" width="600" height="400" src="/assets/site-home-showcase-workspace.webp" alt="Workspaces with calm desks, shelving, and executive seating" fetchpriority="low">
+          <img loading="lazy" decoding="async" data-placeholder="home-showcase-workspace" data-context="Calm home workspace with a minimalist desk, floating shelving, and an executive chair, styled with natural light and neutral tones" width="600" height="400" src="/assets/site-home-showcase-workspace.webp" alt="Workspaces with calm desks, shelving, and executive seating" data-element-type="image" data-element-id="img-1783603417666-d4gfks4w6" fetchpriority="low">
         </figure>
         <div class="home-showcase-section__card-content">
           <h3 class="home-showcase-section__card-title">Espaces de Travail</h3>
