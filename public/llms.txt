@@ -6,7 +6,7 @@
 
 ## Pages
 
-### Home
+### Accueil
 https://example.com
 Transform your space with LIFE DECO&#39;s consign &amp; design interiors. Explore reclaimed wood interior design and classic, modern furniture to craft your perfect home or office sanctuary today.
 
@@ -14,12 +14,12 @@ Transform your space with LIFE DECO&#39;s consign &amp; design interiors. Explor
 https://example.com/collections
 Browse our curated furniture collections blending reclaimed wood interior design with timeless classics and sleek modern pieces. Find your statement piece and elevate every room now.
 
-### Design Services
-https://example.com/design-services
+### Services Design
+https://example.com/services-design
 Our expert design services bring consign &amp; design interiors to life with reclaimed wood accents and tailored layouts. Schedule your consultation and reimagine your space today.
 
-### About
-https://example.com/about
+### À Propos
+https://example.com/propos
 Discover LIFE DECO&#39;s passion for consign &amp; design interiors and reclaimed wood craftsmanship. Learn how we blend classic and modern furniture to create spaces with soul and style.
 
 ### Contact
@@ -56,11 +56,11 @@ Information about WCAG compliance and accessibility features.
 - Method: POST
 - Content-Type: application/json
 - Fields:
-  - `name` (text)
-  - `email` (email)
+  - `name` (text, required)
+  - `email` (email, required)
   - `phone` (tel)
-  - `message` (textarea)
-  - `privacy_consent` (checkbox)
+  - `message` (textarea, required)
+  - `privacy_consent` (checkbox, required)
 
 ---
 
